@@ -1,4 +1,4 @@
-
+// 자바 프로그램의 기본 구조
 public class Hello {
 
 	public static int sum(int n, int m) {
