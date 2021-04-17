@@ -11,7 +11,8 @@ public class Q2 {
 		scanner = new Scanner(System.in);
 		int floor = scanner.nextInt();
 		
-		System.out.println(floor*5 + "m " + "입니다.");		
+		System.out.println(floor*5 + "m " + "입니다.");	
+		scanner.close();
 	}
 
 }

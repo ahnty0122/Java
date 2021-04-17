@@ -14,6 +14,7 @@ public class Q1 {
 		int b = scanner.nextInt();
 		
 		System.out.print(a + "+" + b + "Àº " + (a + b));
+		scanner.close();
 	}
 
 }
