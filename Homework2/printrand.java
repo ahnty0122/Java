@@ -9,14 +9,10 @@ public class printrand {
 			b = (int)(Math.random() * 3 + 1);
 			c = (int)(Math.random() * 3 + 1);
 			System.out.println(a + " " + b + " " + c);
-			if(a == b)
+			if((a == b) && (b == c))
 			{	
-				if(b == c)
-				{	
-					if(a == c)
-						System.out.println("성공");
-						break;
-				}
+				System.out.println("성공");
+				break;
 			}
 		}
 	}

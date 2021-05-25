@@ -23,6 +23,8 @@ public class VectorHeight {
 				max = v.get(i + 1) - v.get(i);
 				max_index = i;
 			}
+			else
+				continue;
 		}
 		System.out.println("가장 키가 많이 자란 년도는 " + (int)(2000 + max_index) + "년 " + (float)max + "cm");
 		scanner.close();
