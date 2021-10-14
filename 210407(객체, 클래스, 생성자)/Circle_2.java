@@ -27,6 +27,6 @@ public class Circle_2 {
 		donut.name = "도넛피자";
 		area = donut.getArea();
 		System.out.println(donut.name + "의 면적은 " + area);
-;	}
+	}
 
 }
